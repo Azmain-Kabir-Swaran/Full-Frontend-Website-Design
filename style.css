@@ -1,0 +1,96 @@
+body{
+	margin: 0;
+	padding: 0;
+	font-family: 'Josefin Sans', sans-serif;
+}
+.navbar{
+	color: white;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	background: rgba(0, 0, 0, 0.4);
+}
+.navbar .navbar-brand img{
+	 height: 60px;
+	 width: 143px;
+	 margin-left: 40px;
+}
+.navbar .collapse .other{
+	border-radius: 0px;
+	border: 1px solid white;
+	color: white;
+	background-color: transparent;
+	margin-right: 10px;
+	padding-top: 4px;
+	padding-bottom: 4px;
+	padding-left: 10px;
+	padding-right: 10px;
+	transition: 0.5s;
+}
+.navbar .collapse .other:hover{
+	border-radius: 0px;
+	border: 1px solid black;
+	color: black;
+	background-color: white;
+	margin-right: 10px;
+	padding-top: 4px;
+	padding-bottom: 4px;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+.navbar .collapse .this{
+	border-radius: 0px;
+	border: 1px solid white;
+	background-color: white;
+	margin-right: 10px;
+	padding-top: 4px;
+	padding-bottom: 4px;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+footer{
+  background: white;
+  color: white;
+  padding: 45px 0;
+}
+
+.footer-container{
+  max-width: 1300px;
+  margin: auto;
+  padding: 0 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap-reverse;
+}
+
+.logo{
+  height: 40px;
+  width: 100px;
+  margin-bottom: 20px;
+}
+
+.social-media{
+  margin: 20px 0;
+}
+
+.social-media a{
+  color: #000;
+  margin-right: 25px;
+  font-size: 22px;
+  text-decoration: none;
+  transition: 0.2s linear;
+}
+
+.social-media a:hover{
+  color: #fc5c65;
+}
+
+.right-col h1{
+  font-size: 26px;
+}
+
+.border{
+  width: 100%;
+  height: 4px;
+  color: #fc5c65;
+}

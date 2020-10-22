@@ -1,0 +1,19 @@
+body{
+  background: #f1f1f1;
+  background-size: cover;
+}
+.carousel-item:after {
+  content:"";
+  display:block;
+  position:absolute;
+  top:0;
+  bottom:0;
+  left:0;
+  right:0;
+  background: linear-gradient(rgba(0,0,0, 0.5), rgba(0,0,0, 0.2));
+}
+.navbar{
+	color: white;
+  background: rgba(0, 0, 0, 0.4);
+}
+

@@ -1,0 +1,43 @@
+body{
+	margin: 0;
+	padding: 0;
+	background: linear-gradient(rgba(0,0,0, 0.5), rgba(0,0,0, 0.5)), url(img/contact.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+	font-family: 'Josefin Sans', sans-serif;
+}
+.container{
+	color: white;
+}
+.container .contactbox,.contactinfo{
+	color: white;
+	padding: 30px;
+	background: rgba(0, 0, 0, 0.6);
+	box-shadow: 0px 0px 8px 4px black;
+	border-radius: 12px;
+}
+.container .contactbox .form-group input{
+	color: white;
+	background: rgba(0, 0, 0, 0.5);
+}
+.container .contactbox .form-group textarea{
+	color: white;
+	background: rgba(0, 0, 0, 0.5);
+}
+.container .contactbox button{
+	border-radius: 0;
+	border: 1px solid white;
+	color: white;
+	background-color: transparent;
+	padding-left: 25%;
+	padding-right: 25%;
+	display: block;
+	margin: auto;
+}
+.container .contactbox button:hover{
+	border-radius: 0;
+	border: 1px solid white;
+	color: black;
+	background-color: white;
+}

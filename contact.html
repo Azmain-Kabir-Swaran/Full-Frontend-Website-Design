@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap" rel="stylesheet">
+		<title>Contact | Gaia Glob</title>
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+		<link rel="stylesheet" href="style.css">
+		<link rel="stylesheet" href="contact.css">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+		
+		<!-- Make the image responsive -->
+		
+	</head>
+	<body>
+		<header>
+			<!-- Nav Bar -->
+			<nav class="navbar navbar-expand-lg sticky-top navbar-dark">
+				<a class="navbar-brand" href="home.html"><img src="logo/logo.png"></a>
+				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+				</button>
+				<div class="collapse navbar-collapse" id="navbarSupportedContent">
+					<ul class="navbar-nav ml-auto mr-5">
+						<li class="nav-item">
+							<a class="nav-link other" href="home.html">Home</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link other" href="aboutus.html">About Us</a>
+						</li>
+						
+						<li class="nav-item">
+							<a class="nav-link other" href="products.html">Products</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link other" href="services.html">Services</a>
+						</li>
+						<li class="nav-item active">
+							<a class="nav-link text-dark this" href="contact.html">Contact<span class="sr-only">(current)</span></a>
+						</li>
+					</ul>
+				</div>
+			</nav>
+			<!-- Nav Bar End -->
+			<!-- Contact Form -->
+			<section>
+				<div class="container">
+					<div class="row mb-5">
+						<div class="col-lg-6 col-md-6 col-12 pr-lg-5 pr-md-5 pt-5">
+							<div class="contactbox mx-auto">
+<!-- <form action="/action_page.php">  -->   <!-- uncomment this when connect to database -->
+									<div class="form-group">
+										<label for="name">Name:</label>
+										<input type="text" class="form-control" placeholder="Enter your name" id="name">
+										
+										<div id="nameerror"></div>
+									</div>
+									
+									<div class="form-group">
+										<label for="email">Email address:</label>
+										<input type="email" class="form-control" placeholder="Enter your email" id="email">
+										
+										<div id="emailerror"></div>
+									</div>
+									<div class="form-group">
+										<label for="email">Phone:</label>
+										<input type="number" class="form-control" placeholder="Enter your phone number" id="phone">
+										
+										<div id="phoneerror"></div>
+									</div>
+									<div class="form-group">
+										<label for="subject">Subject:</label>
+										<input type="text" class="form-control" placeholder="Subject" id="subject">
+										
+										<div id="subjecterror"></div>
+									</div>
+									<div class="form-group">
+										<label for="message">Message:</label>
+										<textarea class="form-control" placeholder="Write your message here" id="message"></textarea>
+										<div id="messageerror"></div>
+									</div>
+									
+									<button type="submit" id="btn" class="btn btn-primary">Submit</button>
+<!-- uncomment this when connect to database --> <!-- </form> -->
+							</div>
+						</div>
+						<div class="col-lg-6 col-md-6 col-12 pl-lg-5 pl-md-5 pt-5">
+							<h1 class="text-center contactinfo">Contact Us</h1>
+							<hr class="mb-5 bg-dark">
+							<p>
+								<div class="contactinfo">
+									<h5 class="text-center"><i class="fas fa-map-marker-alt"></i></h5>
+									<h5 class="text-center">İnönü Mahallesi, 9504/3 Sokak, 35650, Çiğli/İzmir, Türkiye</h5><br>
+									<h5 class="text-center" style="color: #fff;"><i class="far fa-envelope pr-3"></i>info@gaiaglob.com</h5>
+									<h5 class="text-center" style="color: #fff;"><i class="fas fa-phone-alt pr-3"></i>+90 232 839 06 43</h5><br>
+								</div>
+							</p>
+						</div>
+					</div>
+				</div>
+			</section>
+		</header>
+		
+		<section class="bg-white">
+			<article class="py-5 text-center">
+				<div>
+					<h3 class="display-4 text-dark">Get Us Here</h3>
+					<hr class="bg-dark w-25">
+					<p class="text-warning">(Google Map Direction).</p>
+				</div>
+			</article>
+		</section>
+		<!-- Google Map -->
+		<section class="container mt-5 mb-5">
+			<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d780.3108968503149!2d27.0439409273418!3d38.52815277962931!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14bbd0e349b2e61d%3A0x215651a78b2bfac8!2zxLBuw7Zuw7wsIDk1MDQvMy4gU2ssIDM1NjUwIMOHacSfbGkvxLB6bWlyLCBUdXJrZXk!5e0!3m2!1sen!2sbd!4v1588578847580!5m2!1sen!2sbd" width="100%" height="600" frameborder="0" style="border:0px solid black;background: rgba(0, 0, 0, 0.6); box-shadow: 0px 0px 8px 0px black; border-radius: 12px;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+		</section>
+		<footer class="bg-white">
+			<div class="footer-container">
+				<div class="left-col">
+					<img src="logo/logo.png" alt="" class="logo">
+					<p class="rights-text text-dark">©2020, Gaia Glob kurulmuştur.</p>
+				</div>
+				<div class="right-col">
+					<h1 class="text-dark">Connect With Us</h1>
+					<div class="border bg-dark"></div>
+					<div class="social-media">
+						<a href="#"><i class="fab fa-facebook-f"></i></a>
+						<a href="#"><i class="fab fa-twitter"></i></a>
+						<a href="#"><i class="fab fa-instagram"></i></a>
+						<a href="#"><i class="fab fa-youtube"></i></a>
+						<a href="#"><i class="fab fa-linkedin-in"></i></a>
+					</div>
+				</div>
+			</div>
+		</footer>
+		<!-- Form validation -->
+		<script>
+			$(document).ready(function(){
+				$('#btn').click(function(){
+					var username = $('#name').val();
+					var useremail = $('#email').val();
+					var userphone = $('#phone').val();
+					var usersubject = $('#subject').val();
+					var usermsg = $('#message').val();
+					if(username == ""){
+						$('#nameerror').html('***Name must be filled.');
+						$('#nameerror').css('color', 'red');
+						return false;
+					}
+					if(useremail == ""){
+						$('#emailerror').html('***Email address must be filled.');
+						$('#emailerror').css('color', 'red');
+						return false;
+					}
+					if(userphone == ""){
+						$('#phoneerror').html('***Phone number must be filled.');
+						$('#phoneerror').css('color', 'red');
+						return false;
+					}
+					if(usersubject == ""){
+						$('#subjecterror').html('***Subject must be filled.');
+						$('#subjecterror').css('color', 'red');
+						return false;
+					}
+					if(usermsg == ""){
+						$('#messageerror').html('***Message must be filled.');
+						$('#messageerror').css('color', 'red');
+						return false;
+					}
+				});
+			});
+		</script>
+		
+		<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+		<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+		
+	</body>
+</html>
